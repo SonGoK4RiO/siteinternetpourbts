@@ -1,0 +1,231 @@
+@font-face{
+	font-family: nom-de-police;
+	src:  url(Police/sonic_comic.ttf);
+}
+@font-face{
+	font-family: nom-de-police2;
+	src:  url(Police/Super_Sonic\ -\ Demo.ttf);
+}
+/*L'écriture est utilisé pour décrire les joueurs du monde dans la page Les meilleurs joueurs du monde*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+html{
+	background: url(../Images/Présentation_Décoration/NEW\ walpaper\ Smash.gif);
+	font-size: 62.5%;
+}
+
+li{
+	font-size: 1.75rem;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+/* changeùent de couleur dès qu'un lien (interne oiu externe) est inséter dans du texte*/
+a:hover{
+	color: greenyellow;
+}
+/* couleur de font utilisé pour l'en-tête*/
+.main-head {
+	background-image: url(../Images/Présentation_Décoration/lourd.jpg);
+	width: 100%N;
+}
+/* menu principale : placement et décalage entre les mots et caractères*/
+nav{
+	min-height: 10vh;
+	display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    
+}
+
+/*header*/
+
+nav ul{
+	display: flex;
+	flex: 1 1 40rem;
+	align-items: center;
+	justify-content: space-around;
+	list-style: none;
+	font-family: 'Grechen Fuemen', cursive;
+}
+/* DIV crée poutr faire les différentes cases dans la page "Des meilleurs joueurs du monde" et "Formulaire"*/
+#color-id{
+  width: 880px;
+  border: 2px royalblue ;
+}
+
+/* classe pdiv utilisé pour précicer la police de l'écriture dans la partie "Des meilleurs joueurs du monde"*/
+
+.pdiv{
+	text-align: right;
+	margin-right: 325px ;
+	font-family: nom-de-police;
+}
+/* classe pdiv2 utilisé pour précicer la police dans le footer de la page "Formulaire"*/
+
+.pdiv2{
+	font-family: nom-de-police2;
+}
+/* cole l'image a gauche, celle-ci n'est plus prise en compte par la mise en page dans la page "Des mailleurs joueurs du monde */
+#imgctrplayer{
+	float: left;
+	width: 500px;
+	height: 300px;
+	margin: 50px;
+}
+/* Placement du poster sur toute la ligne de la page*/
+#poster{
+	width: 100%;
+}
+/* placements des images des personnages facile à jouer dans la page "Présentation des personnages*/
+#imgctr{
+	padding-left: 50px;
+}
+#imgligne2{
+	padding-left: 75px;
+}
+#imgligne3{
+	padding-left: 75px;
+}
+#imgligne4{
+	padding-left: 95px;
+}
+#imgligne5{
+	padding-left: 50px;
+}
+/* placements des images des personnages difficile à jouer dans la page "Présentation des personnages*/
+#imgctr6{
+	padding-left: 0px;
+}
+#imgligne7{
+	padding-left: 40px;
+}
+#imgligne8{
+	padding-left: 5px;
+}
+#imgligne9{
+	padding-left: 25px;
+}
+#imgligne10{
+	padding-left: 50px;
+}
+#imgligne11{
+	padding-left: 50px;
+}
+/* Placement du formulaire dans la page "formulaire"*/
+#form_padd{
+	padding-left: 340px;
+}
+
+/*Image tournoi placée sur toute la ligne de la page*/
+#tourmoi{
+	height: 100%;
+}
+/* utiliser en conjonction avec #imgctr, déplace de 650px ce qui est dans la classe afin de faire de la place pour l'image dans la page "Des meilleurs joueurs du monde"*/
+#txtdecl{
+	padding-left: 640px;
+}
+/* Classe logo utilisé pour placer l'image dans le main-head*/
+#logoSSBU{
+	flex: 1 60 40rem;
+	color: white;
+	background-image: url(../Images/Présentation_Décoration/NEW-logo.jpg);
+	background-repeat: no-repeat;
+	background-position: -1px;
+}
+/* Placement de toutes les vidéos insérées et téléchargées*/
+video{
+	text-align: center;
+
+}
+/* image placé à gauche et modifié en taille dans la page "Achat jeu*/
+#imgctrgame{
+	position: absolute;
+	padding-top: 35px ;
+	padding-left: 25px ;
+	float: left;
+	height: 500px ;
+	width: 300px ;
+}
+
+
+/* police utilisé pour le titre de chaque page ( sauf page d'accueil faite sur un autre CSS)*/
+h2{
+	color: red;
+	font-size: 50px;
+	text-align: center;
+
+}
+/* h3 utilisé pour chaque introduction de toute la spages (sauf page d'accueil et formulaire)*/
+h3{
+	color: white;
+	font-size: 25px;
+}
+/* h5 utilisé pour présenter le texte; explication détaillé des parties (sauf page d'accueil)*/
+h5{
+	color: white;
+	font-size: 20px;
+}
+/* h4 utilisé pour présenter les titre des parties (sauf page d'accueil)*/
+h4{
+	color: yellow;
+	font-size: 20px;
+}
+/* h6 utilisé pour indiquer le sommaire des pages et pour la signature dans la page "Achat jeu" */
+h6{
+	color: white;
+	font-size: 25px;
+}
+/* Permet de régler la taille de la signature "@copyright-Megueddem2021" dans le formulaire */
+#taille{
+	font-size: 37px;
+}
+/* Classe boutton utilisé pour revenir au début de la page dans les pages "Présentation de la licence",
+"Présentation des peersonnages" et "Des meilleurs joueurs du monde"*/
+button{
+	padding: 0.2srem;
+	background-color: blue;
+	color: white;
+	font-size: 5.0rem;
+	cursor: pointer;
+	border: white;
+}
+/* Champs utilisé pour placer la grille du formulaire*/
+.champ{
+	float: left;
+	color: white;
+	padding-left: 500px;
+	font-size: 19px;
+	margin-bottom: 10px;
+}
+/*permet de décaler le titre "Commande" et de l'aligner avec le champs auquel l'on renseigne notre identité pourcommander le jeu*/
+
+#textForm{
+	padding-left: 50px;
+}
+/* Cette partie permet de mettre le site de manière à ce que l'utilisateur mobile ou tablette s'adapte
+de manière responsive en fonction du site web*/
+
+@media (max-width: 500px) {
+	.main-head {
+		height: 110px;
+	}
+	.main-head ul {
+		padding: 10px;
+	}
+	.main-head li {
+		padding: 10px;
+	}
+	ul, li {
+		width: 300px;
+	}
+}
