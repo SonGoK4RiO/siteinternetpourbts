@@ -15,7 +15,7 @@
 	
 }
 html{
-	background: url(../Images/Présentation_Décoration/NEW\ walpaper\ Smash.gif);
+	background: url(/Images/Présentation_Décoration/NEW\ walpaper\ Smash.gif);
 	font-size: 62.5%;
 }
 
@@ -33,7 +33,7 @@ a:hover{
 }
 /* couleur de font utilisé pour l'en-tête*/
 .main-head {
-	background-image: url(../Images/Présentation_Décoration/lourd.jpg);
+	background-image: url(/Images/Présentation_Décoration/lourd.jpg);
 	width: 100%N;
 }
 /* menu principale : placement et décalage entre les mots et caractères*/
@@ -138,7 +138,7 @@ nav ul{
 #logoSSBU{
 	flex: 1 60 40rem;
 	color: white;
-	background-image: url(../Images/Présentation_Décoration/NEW-logo.jpg);
+	background-image: url(/Images/Présentation_Décoration/NEW-logo.jpg);
 	background-repeat: no-repeat;
 	background-position: -1px;
 }

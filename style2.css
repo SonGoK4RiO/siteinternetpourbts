@@ -32,7 +32,7 @@ a:hover{
 }
 
 .main-head {
-	background-image: url(../Images/Présentation_Décoration/lourd.jpg);
+	background-image: url(/Images/Présentation_Décoration/lourd.jpg);
 }
 /* menu principale : placement et décalage entre les mots et caractères*/
 nav{
