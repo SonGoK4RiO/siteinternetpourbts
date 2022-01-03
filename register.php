@@ -139,15 +139,22 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <form action="register.php" method="post">
                     <label><p style="color:white">nom d'utilisateur</p></label>
                     <input type="text" name="username" value="<?php echo $username; ?>" required>
+                    <br>
+                    <br>
 
                     <label><p style="color:white">mot de passe</p></label>
                     <input type="password" name="password" value="<?php echo $password; ?>" required>
+                    <br>
+                    <br>
 
                     <label><p style="color:white">confirmez le mot de passe</p></label>
                     <input type="password" name="confirm_password" value="<?php echo $confirm_password; ?>" required>
+                    <br>
+                    <br>
                     <br><br>
                     <button id="button_register" type="submit" value="Submit"><p>Valider</p></button>
                     <button id="button_register" type="reset" value="Reset"><p>réinitialiser</p></button>
+                    <br>
                     <p style="color:white">vous avez déjà un compte? <a href="login.php">connectez vous ici</a>.</p>
             </form>
         <center>

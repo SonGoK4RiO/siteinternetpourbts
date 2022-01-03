@@ -1,19 +1,14 @@
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-START TRANSACTION;
-SET time_zone = "+00:00";
-
 CREATE TABLE `users_karim` (
   `id` int NOT NULL,
   `username` varchar(50) NOT NULL,
-  `user_password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `user_password` varchar(255),
   `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
-  `LAST_ONLINE` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `USER_STATUS` int NOT NULL COMMENT '1 : admin, 2 : modo; 3 : wiki editor',
-  `USER_BIO` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `LAST_ONLINE` text,
+  `USER_STATUS` int,
+  `USER_BIO` text,
   `TOKEN` text NOT NULL,
   `PFP_URL` text
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+);
 
 ALTER TABLE `users_karim`
   ADD PRIMARY KEY (`id`),

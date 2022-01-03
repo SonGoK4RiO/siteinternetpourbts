@@ -135,9 +135,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <label><p style="color:white">nom d'utilisateur</p></label>
+            <br>
+            <br>
             <input type="text" name="username" value="<?php echo $username; ?>">
             <label><p style="color:white">mot de passe</p></label>
+            <br>
+            <br>
             <input type="password" name="password">
+            <br>
+            <br>
             <br>
             <br>
             <button type="submit" value="Login"><p>valider</p></button>
