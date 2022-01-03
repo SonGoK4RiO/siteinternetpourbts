@@ -59,7 +59,7 @@ user_message
                 <li><a href="Des-meilleurs-joueurs-du-mondes.php">Des meilleurs joueurs du monde</a></li>
                 <li><a href="https://www.smashbros.com/fr_FR/" target="blank"> Site officiel du jeu </a></li>
                 <li><a href="formulaire.php"> Achat jeu </a></li>
-                <li><a href=""> Inscription Connexion </a></li>
+                <li><a href="login.php"> Inscription Connexion </a></li>
             </ul>
         </nav>
 
