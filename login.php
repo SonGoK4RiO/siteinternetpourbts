@@ -138,6 +138,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <br>
             <br>
             <input type="text" name="username" value="<?php echo $username; ?>">
+            <br>
+            <br>
+            <br>
+            <br>
             <label><p style="color:white">mot de passe</p></label>
             <br>
             <br>
@@ -147,6 +151,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <br>
             <br>
             <button type="submit" value="Login"><p>valider</p></button>
+            <br>
+            <br>
             <p style="color:white">Pas de compte ? <a href="register.php">Créez en un!</a>.</p>
         </form>
     </center>
