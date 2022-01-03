@@ -26,7 +26,7 @@
   </header>
   <br><br><br>
   <center>
-	<u> <h2 class="pdiv"> Super Smash Bros </u> </h2> 
+	<u> <h2> Super Smash Bros </u> </h2> 
 </center>
 <br><br><br>
 <center>
