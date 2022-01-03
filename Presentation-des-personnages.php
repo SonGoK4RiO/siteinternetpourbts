@@ -11,12 +11,12 @@
   	<nav>
         <li class=".main-head"><a href="index.php"><img src="/Images/presentationdeco/NEW-logo.jpg" alt=""></a></li>
         <ul>
-            <li><a href="Présentation-licence.php">Présentation de la licence</a></li>
-            <li><a href="Présentation-des-personnages.php">Présentation des personnages</a></li>
+            <li><a href="Presentation-licence.php">Présentation de la licence</a></li>
+            <li><a href="Presentation-des-personnages.php">Présentation des personnages</a></li>
             <li><a href="Des-meilleurs-joueurs-du-mondes.php">Des meilleurs joueurs du monde</a></li>
             <li><a href="https://www.smashbros.com/fr_FR/" target="blank"> Site officiel du jeu </a></li>
             <li><a href="formulaire.php"> Achat jeu </a></li>
-            <li><a href=""> Inscription Connexion </a></li>
+            <li><a href="login.php"> Inscription / Connexion </a></li>
         </ul>
   	</nav>
 
@@ -106,7 +106,7 @@
 <br><br>
     <center>
         <button>
-            <li> <a href="#partie4"> Retour au début </a> </li> <!--Ce bouton permet de remonter vers le début de cette page-->
+            <li> <a href="#partie4" style="color:white"> Retour au début </a> </li> <!--Ce bouton permet de remonter vers le début de cette page-->
         </button>   
     </center>
     <br><br>   

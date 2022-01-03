@@ -196,9 +196,13 @@ button{
 	padding: 0.2srem;
 	background-color: blue;
 	color: white;
-	font-size: 5.0rem;
+	font-size: 3.0rem;
 	cursor: pointer;
 	border: white;
+}
+input{
+    color: black;
+    border: white;
 }
 /* Champs utilisé pour placer la grille du formulaire*/
 .champ{

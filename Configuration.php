@@ -1,9 +1,9 @@
 <?php
     session_start();
     define('DB_SERVER', 'localhost');
-    define('DB_USERNAME', 'admin');
-    define('DB_PASSWORD', 'motdepasse');
-    define('DB_NAME', 'website_data_base');
+    define('DB_USERNAME', 'id16061719_user');
+    define('DB_PASSWORD', 'v]Tc@ejdp^KqtTN5');
+    define('DB_NAME', 'id16061719_karim');
 
     $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
     

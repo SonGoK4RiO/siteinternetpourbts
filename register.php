@@ -111,8 +111,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <nav>
             <li class=".main-head"><a href="index.php"><img src="/Images/presentationdeco/NEW-logo.jpg" alt=""></a></li>
           <ul>
-              <li><a href="Présentation-licence.php">Présentation de la licence</a></li>
-              <li><a href="Présentation-des-personnages.php">Présentation des personnages</a></li>
+              <li><a href="Presentation-licence.php">Présentation de la licence</a></li>
+              <li><a href="Presentation-des-personnages.php">Présentation des personnages</a></li>
               <li><a href="Des-meilleurs-joueurs-du-mondes.php">Des meilleurs joueurs du monde</a></li>
               <li><a href="https://www.smashbros.com/fr_FR/" target="blank"> Site officiel du jeu </a></li>
               <li><a href="formulaire.php"> Achat jeu </a></li>
@@ -125,31 +125,42 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <head>
         <meta charset="UTF-8">
         <title>Créer un compte</title>
-        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="index.css">
         <style>
             body{ font: 14px sans-serif; }
             .wrapper{ width: 360px; padding: 20px; }
         </style>
     </head>
-    <body><br><br><br><br>
+    <body><br><br><br><br><br><br><br><br>
         <center>
-            <h3>Créer un compte</h3>
-            <p>Remplissez ce formulaire pour créer un compte.</p>
+            <h2 style="color:red;background-color:black">Créer un compte</h2>
+            <p style="color:white">Remplissez ce formulaire pour créer un compte.</p>
 
                 <form action="register.php" method="post">
-                    <label><p>nom d'utilisateur</p></label>
+                    <label><p style="color:white">nom d'utilisateur</p></label>
                     <input type="text" name="username" value="<?php echo $username; ?>" required>
 
-                    <label><p>mot de passe</p></label>
+                    <label><p style="color:white">mot de passe</p></label>
                     <input type="password" name="password" value="<?php echo $password; ?>" required>
 
-                    <label><p>confirmez le mot de passe</p></label>
+                    <label><p style="color:white">confirmez le mot de passe</p></label>
                     <input type="password" name="confirm_password" value="<?php echo $confirm_password; ?>" required>
                     <br><br>
                     <button id="button_register" type="submit" value="Submit"><p>Valider</p></button>
                     <button id="button_register" type="reset" value="Reset"><p>réinitialiser</p></button>
-                    <p>vous avez déjà un compte? <a href="login.php">connectez vous ici</a>.</p>
+                    <p style="color:white">vous avez déjà un compte? <a href="login.php">connectez vous ici</a>.</p>
             </form>
         <center>
     </body>
 </html>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <center>
+		<footer class="main-head">
+			<nav>
+			  <ul>
+				  <li> <h3 class="pdiv2" id="taille"> @copyright-Megueddem2021</h3> </li>
+			  </ul>
+			</nav>
+		</footer>
+	</center>

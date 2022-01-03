@@ -100,7 +100,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="index.css">
     <style>
         body{ font: 14px sans-serif; }
         .wrapper{ width: 360px; padding: 20px; }
@@ -111,20 +111,21 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <nav>
             <li class=".main-head"><a href="index.php"><img src="/Images/presentationdeco/NEW-logo.jpg" alt=""></a></li>
           <ul>
-              <li><a href="Présentation-licence.php">Présentation de la licence</a></li>
-              <li><a href="Présentation-des-personnages.php">Présentation des personnages</a></li>
+              <li><a href="Presentation-licence.php">Présentation de la licence</a></li>
+              <li><a href="Presentation-des-personnages.php">Présentation des personnages</a></li>
               <li><a href="Des-meilleurs-joueurs-du-mondes.php">Des meilleurs joueurs du monde</a></li>
               <li><a href="https://www.smashbros.com/fr_FR/" target="blank"> Site officiel du jeu </a></li>
               <li><a href="formulaire.php"> Achat jeu </a></li>
-              <li><a href="login.php"> Inscription Connexion </a></li>
+              <li><a href="login.php"> Inscription / Connexion </a></li>
           </ul>
         </nav>
   
   
   </header>
     <center>
-        <h3>Connexion</h3>
-        <p>Connectez vous ici.</p>
+		<br><br><br><br><br><br><br><br>
+        <h2 style="color:red">Connexion</h2>
+        <p style="color:white">Connectez vous ici.</p>
 
         <?php 
         if(!empty($login_err)){
@@ -133,15 +134,25 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         ?>
 
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-            <label><p>nom d'utilisateur</p></label>
+            <label><p style="color:white">nom d'utilisateur</p></label>
             <input type="text" name="username" value="<?php echo $username; ?>">
-            <label><p>mot de passe</p></label>
+            <label><p style="color:white">mot de passe</p></label>
             <input type="password" name="password">
             <br>
             <br>
             <button type="submit" value="Login"><p>valider</p></button>
-            <p>Pas de compte ? <a href="register.php">Créez en un!</a>.</p>
+            <p style="color:white">Pas de compte ? <a href="register.php">Créez en un!</a>.</p>
         </form>
     </center>
 </body>
 </html>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <center>
+		<footer class="main-head">
+			<nav>
+			  <ul>
+				  <li> <h3 class="pdiv2" id="taille"> @copyright-Megueddem2021</h3> </li>
+			  </ul>
+			</nav>
+		</footer>
+	</center>
