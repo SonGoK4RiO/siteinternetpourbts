@@ -153,7 +153,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <button type="submit" value="Login"><p>valider</p></button>
             <br>
             <br>
-            <p style="color:white">Pas de compte ? <a href="register.php">Créez en un!</a>.</p>
+            <p style="color:white">Pas de compte ? <a href="register.php">Créez en un</a>.</p>
         </form>
     </center>
 </body>
